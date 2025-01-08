@@ -1,0 +1,7 @@
+// ALL DOM QUERIES 
+// 1. document.getElementById()
+// 2. document.getElementsByClassName()
+// 3. document.getElementsByTagName()
+// 4. document.querySelector()
+// 5. document.querySelectorAll()
+// 6. document.getElementsByName()
