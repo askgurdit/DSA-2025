@@ -40,3 +40,6 @@ export default App
 // useReducer example = const [state, dispatch] = useReducer(reducer, initialState)
 // useRef example = const inputRef = useRef()
 // useMemo example = const value = useMemo(() => computeExpensiveValue(a, b), [a, b])
+
+//Conditional Rendering in React = allows you to render different components or elements based on a condition (show or hide or change the elements)
+
