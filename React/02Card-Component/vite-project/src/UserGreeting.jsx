@@ -17,6 +17,7 @@ export default UserGreeting;*/
                 <h2 className="login-prompt">Please log in to continue</h2>);
      }
  export default UserGreeting;*/
+ 
 import PropTypes from 'prop-types';
 
  function UserGreeting(props) {
