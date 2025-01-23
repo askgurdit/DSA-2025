@@ -30,7 +30,7 @@ console.log(evenNumbers); // Output: [2, 4]
 
 Here, filter includes only the elements for which the condition num % 2 === 0 is true.
 
-///////////////////////////3. reduce///////////////////////////
+⁡⁣⁢⁣///////////////////////////3. reduce///////////////////////////⁡
 The reduce method applies a function to an accumulator and each element in the array (from left to right), resulting in a single output value.
 
 Syntax:
