@@ -21,12 +21,12 @@ function MyComponent2() {
     return (
         <div>
             <p>List of Food</p>
-            <ul>
+            <ol>
                 {foods.map((food, index) => 
                 <li key={index} onClick={() => handleRemoveFood(index)}>
                     {food}
                     </li>)}
-            </ul>
+            </ol>
             <input type="text" id="foodInput" placeholder='Enter food name'/>
             <button onClick={handleAddFood}>Add Food</button>
         </div>

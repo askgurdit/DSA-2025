@@ -9,7 +9,7 @@ function ComponentA () {
 
     return (
         <div className="box">
-            <h1>COmponent A</h1>
+            <h1>Component A</h1>
             <h2>{`Hello ${user}`}</h2>
 
             <UserContext.Provider value={user}>

@@ -42,7 +42,7 @@ function MyComponent() {
             <input value={quantity} onChange={handleQuantityChange} type='number' />
             <p>Quantity: {quantity}</p>
 
-            <textarea value={comment} onChange={handleCommentChange} placeholder='Enterr Delivery instructions' />
+            <textarea value={comment} onChange={handleCommentChange} placeholder='Enter Delivery instructions' />
             <p>Comment: {comment}</p>
 
             <select value={payment} onChange={handlePaymentChange}>
@@ -69,11 +69,6 @@ function MyComponent() {
             </label>
 
             <p>Shipping: {shipping}</p>
-
-
-
-
-        
         </div>
     )
 

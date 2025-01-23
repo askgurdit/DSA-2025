@@ -5,3 +5,4 @@
 // 4. document.querySelector()
 // 5. document.querySelectorAll()
 // 6. document.getElementsByName()
+// 7. document.getElementsByTagNameNS()

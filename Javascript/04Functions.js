@@ -19,6 +19,7 @@ function divide(a, b) {
     return a / b;
 }
 console.log(divide(10,2));
+
 //Arrow function
 const divide = (a, b) => a / b;
 
@@ -26,10 +27,12 @@ const divide = (a, b) => a / b;
 (function (){
     console.log('IIFE');
 })();
+
 // Other way to write IIFE
 (() => {
     console.log('IIFE');
 })
+
 // Callback function
 function greet(name) {
     console.log('Hello' + name);
