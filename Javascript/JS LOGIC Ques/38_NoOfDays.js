@@ -12,4 +12,6 @@ const calculateDaysBetweenDates = (date1, date2) => {
     return Math.ceil(diff / (1000 * 60 * 60 * 24));
   }
 
-console.log(calculateDaysBetweenDates ("2024-01-01", "2024-01-31")); // Output: 30
+console.log(calculateDaysBetweenDates ("2024-01-01", "2024-01-31")); 
+// Output: 30
+
