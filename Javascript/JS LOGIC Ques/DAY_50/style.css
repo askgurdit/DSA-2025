@@ -1,0 +1,122 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    padding: 20px;
+}
+
+.wrapper {
+    width: 400px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-holder {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-data {
+    display: flex;
+    align-items: center;
+    background: #f3f3f3;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.form-data span {
+    color: #6a11cb;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.form-control {
+    width: 100%;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.form-data:hover {
+    background: #e0e0e0;
+    transform: scale(1.02);
+}
+
+button.formSubmit {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    outline: none;
+    background: #6a11cb;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button.formSubmit:hover {
+    background: #2575fc;
+    transform: scale(1.05);
+}
+
+.error {
+    font-size: 14px;
+    color: red;
+    margin-top: 5px;
+}
+
+.image-1, .image-2 {
+    width: 80px;
+    position: absolute;
+    transition: transform 0.3s ease;
+}
+
+.image-1 {
+    top: -40px;
+    left: -30px;
+}
+
+.image-2 {
+    bottom: -40px;
+    right: -30px;
+}
+
+.image-1:hover, .image-2:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 500px) {
+    .wrapper {
+        width: 100%;
+        padding: 20px;
+    }
+}
